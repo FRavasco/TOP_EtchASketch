@@ -6,25 +6,30 @@ body{
 
 .outContainer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 960px;
-    /* grid-template-columns: repeat(11,1fr);
-    grid-gap: 20px;*/
+    flex-direction: column;
+    justify-content: stretch;
+    width: 600px;
+    height: 600px;
+    background-color: #bfbfbf;
   }
-  
+ 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    flex: 1;
+}
+
   .grid {
-    border: 1px solid black;
-    margin: 0px;
-    padding: 5px;
+    height: auto;
+    flex: 1;
+    border: 1px solid lightgrey;
     color: green;
   }
 
   .painted{
-    border: 1px solid black;
-    margin: 0px;
-    padding: 5px;
+    border: 1px solid lightgrey;
     color: green;
     background-color: green;
   }
