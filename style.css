@@ -24,12 +24,12 @@ body{
   .grid {
     height: auto;
     flex: 1;
-    border: 1px solid lightgrey;
+    border: 0px;
     color: green;
   }
 
   .painted{
-    border: 1px solid lightgrey;
+    border: 0px;
     color: green;
     background-color: green;
   }

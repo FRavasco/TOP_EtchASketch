@@ -45,6 +45,7 @@ function getSize(){
 
 function paint(e){
     e.target.classList.add('painted')
+    //e.target.style.backgroundColor = 'rgb('+ Math.floor(Math.random() * 256)+ ',' +  Math.floor(Math.random() * 256) + ','+ Math.floor(Math.random() * 256) +')';
 }
 
 function removePaint(e){
